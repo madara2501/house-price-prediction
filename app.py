@@ -17,7 +17,7 @@ median_size = joblib.load("median_size.pkl")
 # Load Dataset
 # ==========================
 
-housing_data = pd.read_csv("india_housing_prices.csv")
+housing_data = pd.read_csv("dropdown_data.csv")
 
 states = sorted(housing_data["State"].dropna().unique())
 cities = sorted(housing_data["City"].dropna().unique())
